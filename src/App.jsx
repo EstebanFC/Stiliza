@@ -80,9 +80,9 @@ const INITIAL_CLASSES = [
 
 // ROLES: 1 = Super Admin, 2 = Admin, 3 = Usuario
 const INITIAL_USERS = [
-  { id: 1, name: 'Usuario Demo', email: 'user@stikiza.com', password: '123', role: 3, tokens: 25, bookings: [] },
-  { id: 101, name: 'Dueño Yoga', email: 'admin@stikiza.com', password: '123', role: 2, studioId: 1 },
-  { id: 999, name: 'Super Admin', email: 'super@stikiza.com', password: '123', role: 1 },
+  { id: 1, name: 'Usuario Demo', email: 'user@stiliza.com', password: '123', role: 3, tokens: 25, bookings: [] },
+  { id: 101, name: 'Dueño Yoga', email: 'admin@stiliza.com', password: '123', role: 2, studioId: 1 },
+  { id: 999, name: 'Super Admin', email: 'super@stiliza.com', password: '123', role: 1 },
 ];
 
 // --- COMPONENTES AUXILIARES ---
@@ -346,7 +346,7 @@ export default function App() {
       <div className="min-h-screen bg-gradient-to-br from-teal-600 to-emerald-800 flex items-center justify-center p-4">
         <Card className="w-full max-w-md py-8 px-6">
           <div className="text-center mb-8">
-            <h1 className="text-3xl font-extrabold text-teal-800 mb-1">Stikiza</h1>
+            <h1 className="text-3xl font-extrabold text-teal-800 mb-1">Stiliza</h1>
             <p className="text-gray-500 text-sm">Tu acceso a estudios de bienestar</p>
           </div>
           <form onSubmit={handleAuthSubmit} className="space-y-4">
@@ -363,7 +363,7 @@ export default function App() {
             </button>
           </div>
           {/* Mock credentials hint */}
-          <div className="mt-6 text-xs text-gray-400 text-center">User: user@stikiza.com (123)</div>
+          <div className="mt-6 text-xs text-gray-400 text-center">User: user@stiliza.com (123)</div>
         </Card>
       </div>
     );
@@ -381,7 +381,7 @@ export default function App() {
              </button>
            )}
            <div>
-            <h1 className="text-xl font-bold text-teal-700">Stikiza</h1>
+            <h1 className="text-xl font-bold text-teal-700">Stiliza</h1>
             <p className="text-xs text-gray-400">Hola, {currentUser.name}</p>
            </div>
         </div>
